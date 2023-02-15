@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.netflix{
+    margin: 1rem;
+}
+.big .imgs img{
+    width: 150px;
+}
+.imgs img {
+  width: 100px;
+  margin: 5px;
+}
+.FirstRow {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.FirstRow::-webkit-scrollbar {
+  display: none;
+}
+.Banner {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+}
+.Banner .content{
+    color: #fff;
+    width: 40vw;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 3rem;
+  transition: all 0.5s ease-out;
+}
+.Header.dark {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.Header img {
+  width: 150px;
+}
+.Header ul {
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+.Header ul li {
+  list-style: none;
+  padding: 10px;
+}
+.Header ul li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+}
+.Header ul li a:hover{
+    color: green;
+}
+.anchors{
+    display: flex;
+    
+}
+.anchors a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 7rem;
+    text-align: center;
+    height: 2rem;
+    /* padding: 10px; */
+    margin: 10px;
+    border-radius: 6px;
+    background-color:  rgba(0, 0, 0, 0.5);;
+    padding-top: 4px;
+     
+}
+element.style {
+    margin-top: 121px;
+}
